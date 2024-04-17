@@ -1,0 +1,27 @@
+name: kakao_app_v1
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2       # iOS 스타일 아이콘 제공
+  font_awesome_flutter: ^9.0.0  # 다양한 Font Awesome 아이콘 사용 가능
+  intl: ^0.17.0                 # 국제화 및 지역화 지원 기능 제공
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/
